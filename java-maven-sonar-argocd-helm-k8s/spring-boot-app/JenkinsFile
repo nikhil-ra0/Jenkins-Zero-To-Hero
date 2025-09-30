@@ -15,7 +15,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo "Checking out source code..."
-                git branch: 'main', url: 'https://github.com/nikhil-ra0/Jenkins-Zero-To-Hero.git'
+                //git branch: 'main', url: 'https://github.com/nikhil-ra0/Jenkins-Zero-To-Hero.git'
             }
         }
 
